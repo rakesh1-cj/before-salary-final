@@ -126,7 +126,7 @@ function createTransporter() {
   const config = {
     
     host: "smtp-relay.brevo.com",
-    port: 587,
+    port: 465,
     secure: false, // true for 465 (SSL), false for other ports
     auth: {
       user: process.env.EMAIL_USER,
